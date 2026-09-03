@@ -1,0 +1,47 @@
+Objetivo 1
+Obtener el elemento que contiene el texto: “START BOOTSTRAP”.
+#################
+h1
+//h1
+
+Objetivo 2
+Obtener el elemento que contiene el texto: “Graphic Artis - Web Designer - Illustrator”.
+#################
+header p
+//header//p
+
+Objetivo 3
+Obtener el elemento padre del elemento que contiene el texto: “Freelancer is a free
+bootstrap theme created by Start Bootstrap. The download includes the complete
+source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets
+for easy customization.”
+#################
+#about div.row div:first-child
+//section[@id="about"]//div[@class="row"]/div[1]
+
+Objetivo 4
+Obtener el elemento padre del elemento que contiene el texto: “2215 John Daniel Drive
+Clark, MO 65243”.
+3
+Dr. Lauro Müller 1989, CP 11200 - Montevideo, Uruguay - (+598) 2410 91 53 - www.ces.com.uy
+#################
+footer div.row div:first-child
+//footer//div[@class="row"]/div[1]
+
+Objetivo 5
+Obtener el elemento de la red social LinkedIn.
+#################
+footer a:nth-of-type(3)
+//footer//a[3]
+
+Objetivo 6
+Obtener el elemento del botón de descarga con el texto: “Free Download ”.
+#################
+#about a
+//section[@id="about"]//a
+
+Objetivo 7
+Obtener el elemento que contiene la imagen:
+#################
+[data-bs-target="#portfolioModal1"]
+//div[@data-bs-target="#portfolioModal1"]
